@@ -20,7 +20,7 @@ jobs:
     
     # GLOBAL VARIABLES - YOUR KEY IS PLACED HERE
     env:
-      DIRECT_TS_KEY: "tskey-auth-kWdWLtvLJ521CNTRL-pM2kKXgKtoUszWfkQpF8pUEighTBd3PN"
+      DIRECT_TS_KEY: ${{ secrets.TS_KEY }}
       USER_IDENTITY: "TITAN-ADMIN"
 
     steps:
